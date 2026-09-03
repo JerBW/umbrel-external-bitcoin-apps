@@ -1,0 +1,12 @@
+services:
+  ratum:
+    image: debian:trixie-slim
+    restart: always
+    network_mode: host
+    command:
+      - /opt/ratum/ratum-gateway
+      - --config
+      - /config/datum_gateway_config.json
+    volumes:
+      - /home/umbrel/umbrel/app-data/ratum-external/bin/ratum-gateway:/opt/ratum/ratum-gateway:ro
+      - /home/umbrel/umbrel/app-data/ratum-external/config/datum_gateway_config.json:/config/datum_gateway_config.json:ro

@@ -1,0 +1,23 @@
+manifestVersion: 1.1
+id: extbtc-ratum
+category: bitcoin
+name: Ratum Gateway
+version: "0.1.10"
+tagline: DATUM pooled mining gateway for external Bitcoin Knots
+icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/bitcoin-knots/icon.svg
+description: >
+  Ratum DATUM gateway connected to an external Bitcoin Knots BLAKE2b node.
+  Provides a local Stratum V1 endpoint for miners and connects upstream
+  to the configured DATUM mining pool.
+developer: iohzrd
+website: https://github.com/iohzrd/ratum
+implements: []
+dependencies: []
+repo: https://github.com/iohzrd/ratum
+support: https://github.com/iohzrd/ratum
+port: 8001
+gallery: []
+path: ""
+defaultPassword: ""
+releaseNotes: >
+  Local external-node configuration using Ratum Gateway 0.1.10.
