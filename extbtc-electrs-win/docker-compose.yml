@@ -1,0 +1,11 @@
+services:
+  electrs:
+    image: ghcr.io/retropex/electrs:v0.10.10-blake2b.1@sha256:37671f4cb359ac61ea2cabd44465b413ec1cd815bf4c1d5e2d220db2c32e49b5
+    restart: always
+    network_mode: host
+    command:
+      - --conf
+      - /config/electrs.toml
+    volumes:
+      - /home/umbrel/umbrel/app-data/btc-electrs-external/config/electrs.toml:/config/electrs.toml:ro
+      - /home/umbrel/umbrel/app-data/btc-electrs-external/data:/data

@@ -1,0 +1,23 @@
+manifestVersion: 1.1
+id: extbtc-electrs-win
+category: bitcoin
+name: Electrs (BLAKE2b External)
+version: "0.10.10-blake2b.1"
+tagline: BLAKE2b Electrum server using an external Bitcoin Knots node
+icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/electrs/icon.svg
+description: >
+  BLAKE2b-enabled Electrs connected to an external Bitcoin Knots node.
+  Uses the existing Electrs database stored on this Umbrel.
+developer: Local
+website: https://umbrel.com/
+implements:
+  - electrs
+dependencies: []
+repo: https://github.com/romanz/electrs
+support: https://community.getumbrel.com/
+port: 2104
+gallery: []
+path: ""
+defaultPassword: ""
+releaseNotes: >
+  Local external-node configuration.
