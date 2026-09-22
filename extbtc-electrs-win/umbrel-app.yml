@@ -8,7 +8,7 @@ icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads
 description: >
   BLAKE2b-enabled Electrs connected to an external Bitcoin Knots node.
   Uses the existing Electrs database stored on this Umbrel.
-developer: Local
+developer: JerBW
 website: https://umbrel.com/
 implements:
   - electrs
